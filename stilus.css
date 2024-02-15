@@ -30,6 +30,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
   
 li a:hover:not(.active) {
@@ -39,6 +40,10 @@ li a:hover:not(.active) {
 .active {
     background-color: orange;
     color: black;
+}
+
+h1 {
+    text-align: center;
 }
 
 article {
