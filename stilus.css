@@ -42,6 +42,7 @@ li a:hover:not(.active) {
 
 article{
     flex: 0 0 100%;
+    border: 1px solid gray;
 }
 header{
     flex: 0 0 100%;
@@ -54,6 +55,7 @@ form > div{
 }
 footer{
     flex: 0 0 100%;
+    text-align: center;
 }
 .boxok{
     display: flex;
@@ -63,4 +65,7 @@ footer{
 }
 .boxok > div {
     flex: 0 0 25%;
+}
+article>div {
+    border: 1px solid gray;
 }
