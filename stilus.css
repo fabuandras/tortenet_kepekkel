@@ -1,5 +1,9 @@
 main {
     font-family: 'Times New Roman', Times, serif;
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    background-color: lightgray;
 }
 
 ul {
@@ -35,4 +39,16 @@ li a:hover:not(.active) {
 .active {
     background-color: orange;
     color: black;
+}
+
+article {
+    border: 1px solid gray;
+}
+
+article>div {
+    border: 1px solid gray;
+}
+
+footer {
+    text-align: center;
 }
